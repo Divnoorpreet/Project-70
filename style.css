@@ -1,0 +1,27 @@
+body{
+    text-align: center
+}
+.my_nav_bar{
+    position:sticky;
+    top:0;
+    z-index: 999;
+}
+.navbar-nav{
+    position:fixed;
+    background:grey;
+    width:100%;
+    margin-top:0px;
+    top:0px;
+    z-index:10;
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.links{
+    display:inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+}
